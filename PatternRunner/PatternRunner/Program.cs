@@ -1,13 +1,13 @@
 ﻿using Autofac;
 using PatternRunner;
-using PatternRunner.PatternAbstractFactory;
+using PatternRunner.PatternPrototype;
 
 IContainer _container;
 
 void RegisterType()
 {
     var builder = new ContainerBuilder();
-    builder.RegisterType<AbstractFactorySolution>().As<IPatternSolution>();
+    builder.RegisterType<PrototypeSolution>().As<IPatternSolution>();
     _container = builder.Build();
 }
 
