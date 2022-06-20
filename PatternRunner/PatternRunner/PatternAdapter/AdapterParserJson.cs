@@ -11,6 +11,7 @@
 
         public Item GetObject(string value)
         {
+            Console.WriteLine("Some custom logic");
             return _parserJson.ExtractObject(value);
         }
     }
