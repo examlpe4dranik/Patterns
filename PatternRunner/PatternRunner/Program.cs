@@ -1,13 +1,13 @@
 ﻿using Autofac;
 using PatternRunner;
-using PatternRunner.PatternBridge;
+using PatternRunner.PatternComposite;
 
 IContainer _container;
 
 void RegisterType()
 {
     var builder = new ContainerBuilder();
-    builder.RegisterType<BridgeSolution>().As<IPatternSolution>();
+    builder.RegisterType<CompositeSolution>().As<IPatternSolution>();
     _container = builder.Build();
 }
 
