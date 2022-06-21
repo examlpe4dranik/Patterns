@@ -26,7 +26,7 @@ namespace PatternRunner.PatternFlyweights
             var random = new Random();
             int indexCountry;
             int indexBorn;
-            PersonalFactory personalFactory = new PersonalFactory();
+            var personalFactory = new PersonalFactory();
             for (int i = 0; i < count; i++)
             {
                 indexCountry = random.Next(0, countries.Length - 1);
