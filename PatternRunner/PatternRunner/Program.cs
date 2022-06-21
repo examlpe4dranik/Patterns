@@ -1,13 +1,13 @@
 ﻿using Autofac;
 using PatternRunner;
-using PatternRunner.PatternFlyweights;
+using PatternRunner.PatternBuilder;
 
 IContainer _container;
 
 void RegisterType()
 {
     var builder = new ContainerBuilder();
-    builder.RegisterType<FlyweightsSolution>().As<IPatternSolution>();
+    builder.RegisterType<BuilderSolution>().As<IPatternSolution>();
     _container = builder.Build();
 }
 
