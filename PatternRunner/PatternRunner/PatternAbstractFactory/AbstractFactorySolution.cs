@@ -1,6 +1,6 @@
 ﻿namespace PatternRunner.PatternAbstractFactory
 {
-    public class AbstractFactorySolution : IPatternSolution
+    internal class AbstractFactorySolution : IPatternSolution
     {
         public void Execute()
         {

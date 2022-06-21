@@ -1,6 +1,6 @@
 ﻿namespace PatternRunner.PatternSolutions
 {
-    public class SingletonSolution : IPatternSolution
+    internal class SingletonSolution : IPatternSolution
     {
         public void Execute()
         {

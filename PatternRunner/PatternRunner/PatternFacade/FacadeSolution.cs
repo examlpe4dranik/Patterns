@@ -1,6 +1,6 @@
 ﻿namespace PatternRunner.PatternFacade
 {
-    public class PatternFacade : IPatternSolution
+    internal class PatternFacade : IPatternSolution
     {
         public void Execute()
         {

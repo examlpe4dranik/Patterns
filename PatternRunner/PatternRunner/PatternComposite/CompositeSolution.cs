@@ -1,6 +1,6 @@
 ﻿namespace PatternRunner.PatternComposite
 {
-    public class CompositeSolution : IPatternSolution
+    internal class CompositeSolution : IPatternSolution
     {
         public void Execute()
         {

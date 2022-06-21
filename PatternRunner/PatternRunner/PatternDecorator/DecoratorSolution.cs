@@ -1,6 +1,6 @@
 ﻿namespace PatternRunner.PatternDecorator
 {
-    public class DecoratorSolution : IPatternSolution
+    internal class DecoratorSolution : IPatternSolution
     {
         public void Execute()
         {

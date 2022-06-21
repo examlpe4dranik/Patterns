@@ -1,6 +1,6 @@
 ﻿namespace PatternRunner.PatternPrototype
 {
-    public class PrototypeSolution : IPatternSolution
+    internal class PrototypeSolution : IPatternSolution
     {
         public void Execute()
         {

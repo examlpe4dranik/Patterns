@@ -1,6 +1,6 @@
 ﻿namespace PatternRunner.PatternAdapter
 {
-    public class AdapterSolution : IPatternSolution
+    internal class AdapterSolution : IPatternSolution
     {
         public void Execute()
         {

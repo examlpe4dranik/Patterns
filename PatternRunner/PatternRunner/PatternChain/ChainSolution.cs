@@ -1,6 +1,6 @@
 ﻿namespace PatternRunner.PatternChain
 {
-    public class ChainSolution : IPatternSolution
+    internal class ChainSolution : IPatternSolution
     {
         public void Execute()
         {

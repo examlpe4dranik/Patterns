@@ -1,6 +1,6 @@
 ﻿namespace PatternRunner.PatternBridge
 {
-    public class BridgeSolution : IPatternSolution
+    internal class BridgeSolution : IPatternSolution
     {
         public void Execute()
         {
