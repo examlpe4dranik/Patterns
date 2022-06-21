@@ -1,13 +1,13 @@
 ﻿using Autofac;
 using PatternRunner;
-using PatternRunner.PatternComposite;
+using PatternRunner.PatternDecorator;
 
 IContainer _container;
 
 void RegisterType()
 {
     var builder = new ContainerBuilder();
-    builder.RegisterType<CompositeSolution>().As<IPatternSolution>();
+    builder.RegisterType<DecoratorSolution>().As<IPatternSolution>();
     _container = builder.Build();
 }
 
