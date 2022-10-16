@@ -1,4 +1,4 @@
-﻿namespace PatternRunner.PatternSolutions
+﻿namespace PatternRunner.PatternSingleton
 {
     public sealed class Singleton
     {

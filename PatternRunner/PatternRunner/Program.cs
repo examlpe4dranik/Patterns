@@ -1,13 +1,13 @@
 ﻿using Autofac;
 using PatternRunner;
-using PatternRunner.PatternBuilder;
+using PatternRunner.PatternSingleton;
 
 IContainer _container;
 
 void RegisterType()
 {
     var builder = new ContainerBuilder();
-    builder.RegisterType<BuilderSolution>().As<IPatternSolution>();
+    builder.RegisterType<SingletonSolution>().As<IPatternSolution>();
     _container = builder.Build();
 }
 

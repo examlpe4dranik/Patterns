@@ -1,4 +1,4 @@
-﻿namespace PatternRunner.PatternSolutions
+﻿namespace PatternRunner.PatternSingleton
 {
     internal class SingletonSolution : IPatternSolution
     {
